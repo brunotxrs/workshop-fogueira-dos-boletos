@@ -67,7 +67,7 @@ A estrutura do projeto segue as convenções de um aplicativo React padrão (ex:
 
 Você pode acessar e explorar o projeto **Workshop Fogueira dos Boletos** diretamente no seu navegador através do seguinte link:
 
-[**Workshop Fogueira dos Boletos**]()
+[**Workshop Fogueira dos Boletos**](https://workshop-fogueira-dos-boleto.vercel.app/)
 
 
 ## 📝 Como Atualizar o Conteúdo (Para o Cliente)
