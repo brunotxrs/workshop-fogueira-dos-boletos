@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f47844ed.css",
+    "main.js": "/static/js/main.7aa7b476.js",
+    "static/js/453.820bde58.chunk.js": "/static/js/453.820bde58.chunk.js",
+    "static/media/fire.gif": "/static/media/fire.6032b8db3f31360f1ea7.gif",
+    "static/media/profile.sarom-no-background.png": "/static/media/profile.sarom-no-background.9e149fd65b1e2ecadf23.png",
+    "index.html": "/index.html",
+    "main.f47844ed.css.map": "/static/css/main.f47844ed.css.map",
+    "main.7aa7b476.js.map": "/static/js/main.7aa7b476.js.map",
+    "453.820bde58.chunk.js.map": "/static/js/453.820bde58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f47844ed.css",
+    "static/js/main.7aa7b476.js"
+  ]
+}
