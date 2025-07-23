@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 0.9375rem;
-    height: 100vh;
+    height: 50vh;
     user-select: none;
 
     h1 {
@@ -42,7 +42,7 @@
         align-items: center;
         justify-content: center;
         padding: 0 0.9375rem;
-        height: 100vh;
+        height: 80vh;
         user-select: none;
 
         h1 {
