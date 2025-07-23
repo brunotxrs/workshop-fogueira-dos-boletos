@@ -14,7 +14,7 @@ function LessonItem({ aulaNumero, tituloAula, infoTexto }) {
     <li>
       <h2>AULA {aulaNumero}</h2>
       <div>
-        <h3>{tituloAula}</h3>
+        <h3 style={{ display: 'flex', alignItems: 'center' }}>{tituloAula}</h3>
         <button onClick={handleToggle}>
           {!isVisible && (
             <span className='ico_plus'>
