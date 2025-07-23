@@ -1,0 +1,164 @@
+#footer-container {
+    height: 100%;
+    padding: 0 30px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #000 0%, #7D0001 50%, #7D0001 100%);
+    position: relative;
+
+    .description {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 30px;
+
+
+
+        h2 {
+            width: 200px;
+            color: var(--color-white-gray);
+            text-align: left;
+            font-size: 2.5rem;
+            font-family: var(--font-anton);
+            letter-spacing: 0.05rem;
+        }
+
+
+        p {
+            font-size: 1.2rem;
+            font-family: var(--font-open-sans);
+            color: var(--color-white-gray);
+            text-align: left;
+            user-select: none;
+
+        }
+    }
+
+
+    span {
+        position: absolute;
+        right: 30px;
+        top: 0px;
+        width: 150px;
+        height: 150px;
+        background:  linear-gradient(to bottom, rgba(125, 0, 1, 0.7) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.9) 100%), url(../../assets/images/fire.gif);
+        object-fit: cover;
+        border-radius: 999px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+
+        img {
+            width: 320px;
+            height: 320px;
+    
+        }
+    
+    }
+}
+
+
+@media screen and (width > 768px) {
+    #footer-container {
+        height: 100%;
+        padding: 0 30px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #000 0%, #7D0001 50%, #7D0001 100%);
+        position: relative;
+
+        .description {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 20px;
+
+
+
+
+            h2 {
+                width: 300px;
+                color: var(--color-white-gray);
+                text-align: center;
+                font-size: 2.5rem;
+                font-family: var(--font-anton);
+                letter-spacing: 0.05rem;
+            }
+
+
+            p {
+                width: 600px;
+                padding-right: 100px;
+                font-size: 1.2rem;
+                font-family: var(--font-open-sans);
+                color: var(--color-white-gray);
+                text-align: left;
+
+            }
+        }
+
+
+        span {
+            position: absolute;
+            right: 30px;
+            top: 0px;
+            width: 150px;
+            height: 150px;
+            background:  linear-gradient(to bottom, rgba(125, 0, 1, 0.7) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.9) 100%), url(../../assets/images/fire.gif);
+            object-fit: cover;
+            border-radius: 999px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 320px;
+                height: 320px;
+        
+            }
+        
+        }
+    }
+}
+
+@media screen and (width > 1024px) {
+    #footer-container {
+        align-items: flex-start;
+        padding-bottom: 40px;
+
+        .description {
+            max-width: 900px;
+            margin: auto;
+            padding-right: 250px;
+            gap: 45px;
+            justify-content: initial;
+
+            
+        }
+
+    }
+
+    #footer-container > span {
+        /* position: relative; */
+        height: 300px;
+        width: 300px;
+        right: 95px;
+        top: -5px;
+        box-shadow: 0px 0px  5px var(--color-black);
+
+        img {
+            height: 635px;
+            object-fit: cover;
+            filter: drop-shadow(2px 2px 5px var(--color-yellow));
+        }
+    }
+}
