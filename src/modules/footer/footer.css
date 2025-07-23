@@ -24,6 +24,7 @@
             font-size: 2.5rem;
             font-family: var(--font-anton);
             letter-spacing: 0.05rem;
+            text-transform: uppercase;
         }
 
 
@@ -52,10 +53,12 @@
         align-items: center;
         justify-content: center;
         user-select: none;
+        box-shadow: 0px 0px  5px var(--color-black);
 
         img {
             width: 320px;
             height: 320px;
+            filter: drop-shadow(2px 2px 5px var(--color-yellow));
     
         }
     
@@ -91,6 +94,7 @@
                 font-size: 2.5rem;
                 font-family: var(--font-anton);
                 letter-spacing: 0.05rem;
+                text-transform: uppercase;
             }
 
 
